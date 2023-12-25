@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rent A Cart</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Google Icons Links -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!-- CSS LINK -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+  <header id="nav-menu" aria-label="navigation bar">
+    <div class="container">
+      <div class="nav-start">
+        <a class="logo" href="/">
+          <img src="/assets/img/logo1.png" width="50" height="50" alt="Inc Logo" />
+        </a>
+        <nav class="menu">
+          <ul class="menu-bar">
+            <li>
+              <button class="nav-link dropdown-btn" data-dropdown="dropdown1" aria-haspopup="true" aria-expanded="false"
+                aria-label="browse">
+                Hire a Car
+                <i class="bx bx-chevron-down" aria-hidden="true"></i>
+              </button>
+              <div id="dropdown1" class="dropdown">
+                <ul role="menu">
+                  <li role="menuitem">
+                    <a class="dropdown-link" href="#best-of-the-day">
+                      <img src="/assets/img/road-trip.png" class="icon" />
+                      <div>
+                        <span class="dropdown-link-title">Daily Car Hire</span>
+                        <p>Explore with Ease: Your Daily Car Rental Hub.</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li role="menuitem">
+                    <a class="dropdown-link" href="#featured-streams">
+                      <img src="/assets/img/electric-car.png" class="icon" />
+                      <div>
+                        <span class="dropdown-link-title">Electronic Vehicles</span>
+                        <p>Drive the Future: Rent Electric, Go Green.</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li role="menuitem">
+                    <a class="dropdown-link" href="#subscriptions">
+                      <img src="/assets/img/long-term.png" class="icon" />
+                      <div>
+                        <span class="dropdown-link-title">Long Term Car Hire</span>
+                        <p>Long-Term Freedom: Your Road, Your Rules.</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li role="menuitem">
+                    <a class="dropdown-link" href="#creative-feed">
+                      <img src="/assets/img/car3.png" class="icon" />
+                      <div>
+                        <span class="dropdown-link-title">The Dream Collection</span>
+                        <p>Dream Cars, Your Drive, Now.</p>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+
+
+              </div>
+            </li>
+            <li><a class="nav-link" href="/">Hire a Van</a></li>
+            <li>
+              <button class="nav-link dropdown-btn" data-dropdown="dropdown2" aria-haspopup="true" aria-expanded="false"
+                aria-label="discover">
+                Locations
+                <i class="bx bx-chevron-down" aria-hidden="true"></i>
+              </button>
+              <div id="dropdown2" class="dropdown">
+                <ul role="menu">
+                  <li>
+                    <span class="dropdown-link-title">Top Locations</span>
+                  </li>
+                  <li role="menuitem">
+                    <a class="dropdown-link" href="#branding">All UK Locations</a>
+                  </li>
+                  <li role="menuitem">
+                    <a class="dropdown-link" href="#illustrations">London</a>
+                  </li>
+                  <li role="menuitem">
+                    <a class="dropdown-link" href="#illustrations">Birminghan</a>
+                  </li>
+                  <li role="menuitem">
+                    <a class="dropdown-link" href="#illustrations">Manchester</a>
+                  </li>
+                </ul>
+                <ul role="menu">
+                  <li>
+                    <span class="dropdown-link-title">Top European Cities</span>
+                  </li>
+                  <li role="menuitem">
+                    <a class="dropdown-link" href="#mac-windows">Barcelona</a>
+                  </li>
+                  <li role="menuitem">
+                    <a class="dropdown-link" href="#linux">Berlin</a>
+                  </li>
+                  <li role="menuitem">
+                    <a class="dropdown-link" href="#linux">Paris</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li><a class="nav-link" href="/">Offers</a></li>
+            <li><a class="nav-link" href="/">Check-In</a></li>
+            <li><a class="nav-link" href="/">Help</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="nav-end">
+        <div class="right-container">
+          <form class="search" role="search">
+            <input type="search" name="search" placeholder="Search" />
+            <i class="bx bx-search" aria-hidden="true"></i>
+          </form>
+          <a href="#profile">
+            <img
+              src="https://github.com/Evavic44/responsive-navbar-with-dropdown/blob/main/assets/images/user.jpg?raw=true"
+              width="30" height="30" alt="user image" />
+          </a>
+          <button class="btn btn-primary">Create</button>
+        </div>
+
+        <button id="hamburger" aria-label="hamburger" aria-haspopup="true" aria-expanded="false">
+          <i class="bx bx-menu" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page markup: Not important -->
+  <main id="main">
+    <section class="main_container">
+      <div class="text">
+        <h1><span>Looking</span> to <br> rent a car</h1>
+        <p>Discover the freedom of the open road – Your gateway to seamless exploration begins with us. Whether it's a
+          weekend getaway or an extended road trip, find the ideal car for every mile of your journey.
+          <br>
+          <br>
+          Explore our
+          diverse fleet and elevate your travel experience with hassle-free car rentals. Welcome to a world where every
+          destination is within reach, and every road is an opportunity to create lasting memories. Start your voyage by
+          choosing the perfect rental – because every adventure deserves the perfect ride.
+        </p>
+        <div class="social_media">
+          <img src="/assets/img/google-play.svg" alt="">
+          <img src="/assets/img/app-store.svg" alt="">
+        </div>
+
+        <div class="form_container">
+          <form action="">
+            <div class="input_content">
+              <span>Location</span>
+              <input type="search" name="search" id="" placeholder="Search Palace">
+            </div>
+            <div class="input_content">
+              <span>Pick-Up Date</span>
+              <input type="date" name="" id="">
+            </div>
+            <div class="input_content">
+              <span>Return Date</span>
+              <input type="date" name="" id="">
+            </div>
+
+            <input type="submit" name="submit" id="" class="btn submit-btn">
+          </form>
+        </div>
+
+      </div>
+
+      <div class="bg_container">
+
+      </div>
+    </section>
+
+    <section id="intro" class="intr">
+      <div class="heading">
+        <span>how Its Work</span>
+        <h1>Rent with 3 easy Steps</h1>
+      </div>
+      <div class="intro_container">
+        <div class="box">
+          <i class='bx bxs-map'></i>
+          <h2>Choose a Location</h2>
+          <p>Lorem ipsum dolor sit amet consecteturente
+            ratione possimus tempore neque est,
+            cupiditate.</p>
+        </div>
+
+        <div class="box">
+          <i class='bx bx-calendar-check'></i>
+          <h2>Pick-Up Date</h2>
+          <p>Lorem ipsum dolor sit amet consecteturente
+            ratione possimus tempore neque est,
+            cupiditate.</p>
+        </div>
+        <div class="box">
+          <i class='bx bx-calendar-star'></i>
+          <h2>Book a Car</h2>
+          <p>Lorem ipsum dolor sit amet consecteturente
+            ratione possimus tempore neque est,
+            cupiditate.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="services" id="services">
+      <div class="heading">
+        <span>Best Servives</span>
+        <h1>Explore Out Top Deals <br> From Top Rated Dealers</h1>
+      </div>
+
+      <div class="services-container">
+        <div class="box">
+          <div class="box-img">
+            <img src="https://images.hgmsites.net/lrg/2023-toyota-bz4x_100836372_l.jpg" width="400px" alt="" srcset="">
+          </div>
+          <p>Electric crossover SUV</p>
+          <h3>Toyota bZ4X 2023</h3>
+          <h2>£100 | £362 <span>month</span></h2>
+          <a href="#" class="serive-btn">Rent Now</a>
+        </div>
+
+
+        <div class="box">
+          <div class="box-img">
+            <img src="https://images.hgmsites.net/lrg/2023-toyota-bz4x_100836372_l.jpg" width="400px" alt="" srcset="">
+          </div>
+          <p>Electric crossover SUV</p>
+          <h3>Toyota bZ4X 2023</h3>
+          <h2>£100 | £362 <span>month</span></h2>
+          <a href="#" class="serive-btn">Rent Now</a>
+        </div>
+
+
+        <div class="box">
+          <div class="box-img">
+            <img src="https://images.hgmsites.net/lrg/2023-toyota-bz4x_100836372_l.jpg" width="400px" alt="" srcset="">
+          </div>
+          <p>Electric crossover SUV</p>
+          <h3>Toyota bZ4X 2023</h3>
+          <h2>£100 | £362 <span>month</span></h2>
+          <a href="#" class="serive-btn">Rent Now</a>
+        </div>
+
+
+        <div class="box">
+          <div class="box-img">
+            <img src="https://images.hgmsites.net/lrg/2023-toyota-bz4x_100836372_l.jpg" width="400px" alt="" srcset="">
+          </div>
+          <p>Electric crossover SUV</p>
+          <h3>Toyota bZ4X 2023</h3>
+          <h2>£100 | £362 <span>month</span></h2>
+          <a href="#" class="serive-btn">Rent Now</a>
+        </div>
+
+
+      </div>
+    </section>
+  </main>
+</body>
+
+
+
+
+<script src="/assets/js/main.js"></script>
+
+</html>
