@@ -509,15 +509,18 @@ button {
 }
 
 .services-container .box p {
-    padding: 0 10px;
+    padding: 5px 10px;
     border: 1px solid var(--darknavyblue);
-    width: 190px;
+    width: 170px;
     border-radius: 0.5rem;
     margin: 1rem 0 1rem;
+    text-transform: capitalize;
 }
 
 .services-container .box h3 {
     font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 .services-container .box h2 {
@@ -545,6 +548,54 @@ button {
 .services-container .box .serive-btn:hover {
     background: var(--pink-clr);
 
+}
+
+.filter-container {
+    margin-top: 2rem;
+    /* display: flex; */
+    /* justify-content: center; */
+
+}
+
+.filter-container .box {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.filter-container .box h2 {
+    font-size: 1.1rem;
+    color: var(--darknavyblue);
+}
+
+.filter-container .box input {
+    /* padding: 1rem 0.5rem .4rem .05rem; */
+    border: none;
+    background: var(--background-clr);
+    border-bottom: 1px solid var(--card-bg-clr);
+    font-weight: 500;
+    font-size: 0.9rem;
+    outline: none;
+    font-size: 1rem;
+    color: var(--card-bg-clr);
+    padding-bottom: .2rem;
+}
+
+.filter-container .box input:hover {
+    border-bottom: 1px solid var(--orang-clr);
+    outline: none;
+}
+
+.filter-container .box .bx {
+    font-size: 1.1rem;
+}
+
+.filter-container .box select {
+    display: flex;
+    padding: 0.3rem 1rem;
+    border: 1px solid var(--grey-font);
+    background: var(--background-clr);
+    border-radius: .5rem;
 }
 
 /* ========== ABOUT STYLE ====== */
