@@ -64,6 +64,30 @@ document.addEventListener("keydown", (e) => {
 // toggle hamburger menu
 hamburgerBtn.addEventListener("click", toggleHamburger);
 
+// ====== About ME =====
+
+// const AboutMe = [
+//   {
+//     title: "<span>Looking</span> to <br> rent a car",
+//     inro: "Discover the freedom of the open road – Your gateway to seamless exploration begins with us. Whether it's a weekend getaway or an extended road trip, find the ideal car for every mile of your journey. <br> <br>Explore our diverse fleet and elevate your travel experience with hassle-free car rentals. Welcome to a world where every destination is within reach, and every road is an opportunity to create lasting memories. Start your voyage by choosing the perfect rental – because every adventure deserves the perfect ride.",
+//   },
+// ];
+
+// function creatAboutMe(about) {
+//   const aboutContainer = document.createElement("div");
+//   aboutContainer.classList.add("text");
+
+//   aboutContainer.innerHTML = `
+//   <span>${about.title}</span>
+//   <p>${about.inro}</p>
+//   `;
+//   return aboutContainer;
+// }
+
+// const aContainer = document.getElementById("about-text");
+
+// AboutMe.forEach((about) => aContainer.appendChild(creatAboutMe(about)));
+
 //====== Available options =====
 
 // ==== REVIEWS SECTION =================

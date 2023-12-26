@@ -142,47 +142,54 @@
 
   <!-- Page markup: Not important -->
   <main id="main">
-    <section class="main_container">
-      <div class="text">
-        <h1><span>Looking</span> to <br> rent a car</h1>
-        <p>Discover the freedom of the open road – Your gateway to seamless exploration begins with us. Whether it's a
-          weekend getaway or an extended road trip, find the ideal car for every mile of your journey.
-          <br>
-          <br>
-          Explore our
-          diverse fleet and elevate your travel experience with hassle-free car rentals. Welcome to a world where every
-          destination is within reach, and every road is an opportunity to create lasting memories. Start your voyage by
-          choosing the perfect rental – because every adventure deserves the perfect ride.
-        </p>
-        <div class="social_media">
-          <img src="/assets/img/google-play.svg" alt="">
-          <img src="/assets/img/app-store.svg" alt="">
+    <section class="main_container" id="main_container">
+      <div class="main_cotent">
+        <div class="text">
+          <h1><span>Looking</span> to rent a car</h1>
+          <p>Discover the freedom of the open road – Your gateway to seamless exploration begins with us. Whether it's a
+            weekend getaway or an extended road trip, find the ideal car for every mile of your journey.
+            <br>
+            <br>
+            Explore our
+            diverse fleet and elevate your travel experience with hassle-free car rentals. Welcome to a world where
+            every
+            destination is within reach, and every road is an opportunity to create lasting memories. Start your voyage
+            by
+            choosing the perfect rental – because every adventure deserves the perfect ride.
+          </p>
+          <div class="social_media">
+            <img src="/assets/img/google-play.svg" alt="">
+            <img src="/assets/img/app-store.svg" alt="">
+          </div>
         </div>
 
-        <div class="form_container">
-          <form action="">
-            <div class="input_content">
-              <span>Location</span>
-              <input type="search" name="search" id="" placeholder="Search Palace">
-            </div>
-            <div class="input_content">
-              <span>Pick-Up Date</span>
-              <input type="date" name="" id="">
-            </div>
-            <div class="input_content">
-              <span>Return Date</span>
-              <input type="date" name="" id="">
-            </div>
+        <div class="bg_container">
 
-            <input type="submit" name="submit" id="" class="btn submit-btn">
-          </form>
         </div>
-
       </div>
 
-      <div class="bg_container">
 
+
+      <div class="form_container">
+        <form action="">
+          <div class="input_content">
+            <span>Location</span>
+            <input type="search" name="search" id="" placeholder="Search Palace">
+          </div>
+          <div class="input_content">
+            <span>Pick-Up Date</span>
+            <input type="date" name="" id="">
+          </div>
+          <div class="input_content">
+            <span>Return Date</span>
+            <input type="date" name="" id="">
+          </div>
+
+          <input type="submit" name="submit" id="" class="btn submit-btn">
+        </form>
       </div>
+
+
     </section>
 
     <section id="intro" class="intr">
@@ -223,21 +230,24 @@
         <h1>Meet the UK Car & Van Hire Fleet</h1>
       </div>
       <div class="filter-container">
-        <div class="box">
-          <h2>Filter</h2><i class='bx bx-filter'></i>
-
-          <input type="text" name="" id="s_name" placeholder="Search by Name">
-          <input type="text" name="" id="s_date" placeholder="Search by Year">
-          <select id="fuel_type">
-            <option value="" disabled selected>Select Car Type</option>
-            <option value="gas" selected>Gas</option>
-            <option value="diesel"> Diesel</option>
-            <option value="electricity">Electric</option>
-
-            <!-- Add more fuel types as needed -->
-          </select>
-
+        <div>
+          <h2>Filter</h2>
+          <i class='bx bx-filter'></i>
         </div>
+        <input type="text" name="" id="s_name" placeholder="Search by Name">
+        <input type="text" name="" id="s_date" placeholder="Search by Year">
+        <select id="fuel_type">
+          <option value="" disabled selected>Select Car Type</option>
+          <option value="gas" selected>Gas</option>
+          <option value="diesel"> Diesel</option>
+          <option value="electricity">Electric</option>
+
+          <!-- Add more fuel types as needed -->
+        </select>
+      </div>
+      <div class="box">
+
+
 
       </div>
       <div class="services-container" id="carContainer">
