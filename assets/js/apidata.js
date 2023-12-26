@@ -110,16 +110,16 @@ async function getCarData() {
 }
 
 // Helper function to update the carContainer with new data
-async function updateCarContainer(apiCars) {
-  const carContainer = document.getElementById("carContainer");
-  carContainer.innerHTML = ""; // Clear existing content
+// async function updateCarContainer(apiCars) {
+//   const carContainer = document.getElementById("carContainer");
+//   carContainer.innerHTML = ""; // Clear existing content
 
-  for (const car of apiCars) {
-    const imageUrl = await fetchPexelsImage(car.make);
-    const carElement = createCarElement({ ...car, imageUrl });
-    carContainer.appendChild(carElement);
-  }
-}
+//   for (const car of apiCars) {
+//     const imageUrl = await fetchPexelsImage(car.make);
+//     const carElement = createCarElement({ ...car, imageUrl });
+//     carContainer.appendChild(carElement);
+//   }
+// }
 
 // Helper function to fetch an image from Unsplash based on make
 const pexelsApiKey =

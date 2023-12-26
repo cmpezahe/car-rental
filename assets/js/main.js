@@ -119,3 +119,5 @@ const reveContainer = document.getElementById("reviews-container");
 reviewSection.forEach((review) =>
   reveContainer.appendChild(createReviewsElement(review))
 );
+
+// SECOND JS FILE
